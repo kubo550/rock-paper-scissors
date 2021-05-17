@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { Battle } from "..";
 import { useScore } from "../../context/ScoreContext";
+import Button from "./Button/Button";
 import * as S from "./Choice.style";
 
-export type Choice = "Paper" | "Rock" | "Scessors";
+export type Choice = "Paper" | "Rock" | "Scissors";
 
-const delayTimeMs = 3000;
-const choices: Choice[] = ["Paper", "Rock", "Scessors"];
+const delayTimeMs = 1500;
+const choices: Choice[] = ["Paper", "Rock", "Scissors"];
 
 const ChoiceEl = () => {
   const [playerChoice, setPlayerChoice] = useState<Choice | null>(null);
@@ -21,14 +22,12 @@ const ChoiceEl = () => {
   };
 
   const calculateWinner = (player: Choice, comp: Choice): null | boolean => {
-    console.log(player, comp);
-
     if (player === comp) {
       return null;
     } else if (
       (player === "Paper" && comp === "Rock") ||
-      (player === "Rock" && comp === "Scessors") ||
-      (player === "Scessors" && comp === "Paper")
+      (player === "Rock" && comp === "Scissors") ||
+      (player === "Scissors" && comp === "Paper")
     ) {
       return true;
     } else {
@@ -63,12 +62,21 @@ const ChoiceEl = () => {
 
   return (
     <S.Container>
-      <Battle playerChoice={playerChoice} computerChoice={computerChoice} />
-      {choices.map(element => (
-        <div key={element}>
-          <button onClick={() => handleClick(element)}> {element} </button>
-        </div>
-      ))}
+      <Battle
+        playerChoice={playerChoice}
+        computerChoice={computerChoice}
+        playable={playable}
+      />
+      <S.ChoicesWrapper>
+        {choices.map(el => (
+          <Button
+            key={el}
+            onClick={() => handleClick(el)}
+            el={el}
+            playable={playable}
+          />
+        ))}
+      </S.ChoicesWrapper>
     </S.Container>
   );
 };
