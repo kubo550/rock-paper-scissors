@@ -12,9 +12,11 @@ export const Wrapper = styled.div`
 
 export const Link = styled.a`
     text-decoration: none;
-    color: #eee ;
+    color: rgba(23, 12, 121, 1);
 `
 
 export const Info = styled.p`
     margin: 0;
+    color: #eee ;
+
 `

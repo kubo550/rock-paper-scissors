@@ -3,16 +3,22 @@ import * as S from "./Footer.style";
 const Footer = () => {
   return (
     <S.Wrapper>
-      <S.Link href='#!'>Facebook</S.Link>
+      <S.Link
+        href='https://www.facebook.com/powerty2'
+        title='Jakub Kurdziel'
+        target='_blank'
+      >
+        Facebook
+      </S.Link>
 
       <S.Info>
-        Code and design by @
+        Code and design by{" "}
         <S.Link
           href='https://github.com/kubo550'
           title='Jakub Kurdziel'
           target='_blank'
         >
-          kubo550
+          @kubo550
         </S.Link>{" "}
         2021®
       </S.Info>
