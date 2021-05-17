@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rock-paper-scissors/static/css/main.bd87e11f.chunk.css",
+    "main.js": "/rock-paper-scissors/static/js/main.92953442.chunk.js",
+    "main.js.map": "/rock-paper-scissors/static/js/main.92953442.chunk.js.map",
+    "runtime-main.js": "/rock-paper-scissors/static/js/runtime-main.f521876e.js",
+    "runtime-main.js.map": "/rock-paper-scissors/static/js/runtime-main.f521876e.js.map",
+    "static/js/2.c241f9e3.chunk.js": "/rock-paper-scissors/static/js/2.c241f9e3.chunk.js",
+    "static/js/2.c241f9e3.chunk.js.map": "/rock-paper-scissors/static/js/2.c241f9e3.chunk.js.map",
+    "index.html": "/rock-paper-scissors/index.html",
+    "static/css/main.bd87e11f.chunk.css.map": "/rock-paper-scissors/static/css/main.bd87e11f.chunk.css.map",
+    "static/js/2.c241f9e3.chunk.js.LICENSE.txt": "/rock-paper-scissors/static/js/2.c241f9e3.chunk.js.LICENSE.txt",
+    "static/media/battle.b3e1d06a.svg": "/rock-paper-scissors/static/media/battle.b3e1d06a.svg",
+    "static/media/computer.5113bcbb.svg": "/rock-paper-scissors/static/media/computer.5113bcbb.svg",
+    "static/media/icon-paper.8b57a6b1.svg": "/rock-paper-scissors/static/media/icon-paper.8b57a6b1.svg",
+    "static/media/icon-rock.476e90a9.svg": "/rock-paper-scissors/static/media/icon-rock.476e90a9.svg",
+    "static/media/icon-scissors.3b1a5d7e.svg": "/rock-paper-scissors/static/media/icon-scissors.3b1a5d7e.svg",
+    "static/media/player.7d90c341.svg": "/rock-paper-scissors/static/media/player.7d90c341.svg",
+    "static/media/reset.10047b09.svg": "/rock-paper-scissors/static/media/reset.10047b09.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f521876e.js",
+    "static/js/2.c241f9e3.chunk.js",
+    "static/css/main.bd87e11f.chunk.css",
+    "static/js/main.92953442.chunk.js"
+  ]
+}
