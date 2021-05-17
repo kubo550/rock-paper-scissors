@@ -13,7 +13,7 @@ Game written in React & TypeScript with React Context API
 
 ## Preview 
 
-[gh-pages](https://kubo550.github.io/rock-paper-scissors/)
+Hosting on [gh-pages](https://kubo550.github.io/rock-paper-scissors/)
 
 ![preview](https://raw.githubusercontent.com/kubo550/rock-paper-scissors/master/preview.png)
 
