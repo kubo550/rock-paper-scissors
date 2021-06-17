@@ -1,6 +1,6 @@
 # Rock Paper Scissors 
 
-Game written in React & TypeScript with React Context API
+Game written in React & TypeScript with React Context API.
 
 
 ## Tech Stack
